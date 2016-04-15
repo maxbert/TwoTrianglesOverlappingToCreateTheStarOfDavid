@@ -1,21 +1,44 @@
 public class IntArrayWorker
 {
-  /** two dimensional matrix */
-  private int[][] matrix = null;
-  
-  /** set the matrix to the passed one
-    * @param theMatrix the one to use
-    */
-  public void setMatrix(int[][] theMatrix)
+    /** two dimensional matrix */
+    private int[][] matrix = null;
+    
+    /** set the matrix to the passed one
+     * @param theMatrix the one to use
+     */
+    public void setMatrix(int[][] theMatrix)
   {
-    matrix = theMatrix;
+      matrix = theMatrix;
   }
-  
-  /**
-   * Method to return the total 
-   * @return the total of the values in the array
-   */
-  public int getTotal()
+    
+    /**
+     * Method to return the total 
+     * @return the total of the values in the array
+     */
+    public int getCount(int i){
+	int temp = 0;
+	for (int j = 0; j < matrix.length; j++){
+	    for (int k = 0; k < matrix[0].length; k++){
+		if (i == matrix[j][k]){
+		    temp++;}}}
+	return temp;
+    }
+     public int getLargest(){
+	int temp = -1;
+	for (int j = 0; j < matrix.length; j++){
+	    for (int k = 0; k < matrix[0].length; k++){
+		if (temp < matrix[j][k]){
+		    temp = matrix[j][k];}}}
+	return temp;
+    }
+    public int getColTotal(int a){
+	int temp = 0;
+	for (int j = 0; j < matrix.length; j++){
+	    temp += matrix[j][a];}
+	    
+	return temp;
+    }
+    public int getTotal()
   {
     int total = 0;
     for (int row = 0; row < matrix.length; row++)
