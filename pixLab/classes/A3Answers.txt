@@ -1,0 +1,7 @@
+1. The row index is 0 for the top left.
+2. The column index is 0 for the top left.
+3. The right most column is 639.
+4. The bottom most row index is 479.
+5. The row increses from top to bottom.
+6. The column index increases from left to right.
+7. Yes at 500% zoom you can see pixelation.
