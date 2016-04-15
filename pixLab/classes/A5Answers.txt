@@ -1,0 +1,7 @@
+1. No, getPixels2D is not in Picture.java.
+2. Yes, getPixels2D is in SimplePicture.java.
+3. No, DigitalPicture p = new DigitalPicture(); would not compile.
+4. No, DigitalPicture p = new SimplePicture(); would not compile.
+5. No, DigitalPicture p = new Picture(); would not compile.
+6. Yes, SimplePicture p = new Picture(); would compile.
+7. No, Picture p = new SimplePicture(); would not compile.
