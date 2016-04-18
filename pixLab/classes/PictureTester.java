@@ -53,7 +53,7 @@ public class PictureTester
   public static void testCollage()
   {
     Picture canvas = new Picture("640x480.jpg");
-    canvas.createCollage();
+    canvas.MyCollage();
     canvas.explore();
   }
   
@@ -80,11 +80,11 @@ public class PictureTester
     //testGrayscale();
     //testFixUnderwater();
     //testMirrorVertical();
-    testMirrorTemple();
-    testMirrorArms();
-    testMirrorGull();
+    //testMirrorTemple();
+    //testMirrorArms();
+    //testMirrorGull();
     //testMirrorDiagonal();
-    //testCollage();
+    testCollage();
     //testCopy();
     //testEdgeDetection();
     //testEdgeDetection2();
