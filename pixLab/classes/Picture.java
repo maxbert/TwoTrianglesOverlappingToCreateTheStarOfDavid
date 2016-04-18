@@ -335,7 +335,11 @@ public class Picture extends SimplePicture
     }
   }
   
-  
+    //New Algorithim by Max
+    /*
+1. loop through the pixels
+2. check if the pixel on the right is differnt form this one AND the pixel on the left is the same, or vice versa
+3. if it is its an edge, set it to black
   /* Main method for testing - each class in Java can have a main 
    * method 
    */
